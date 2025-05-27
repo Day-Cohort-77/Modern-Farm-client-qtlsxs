@@ -24,4 +24,3 @@ If your team wants some fun challenges to work on after the initial algorithm is
 | 1 | [Optional Advanced Challenges](./chapters/MF_CHALLENGES.md) |
 | 2 | [Storage Barn Stack](./chapters/MF_SILO_STACK.md) |
 | 3 | [Food Processing Queue](./chapters/MF_PROCESS_QUEUE.md) |
-
