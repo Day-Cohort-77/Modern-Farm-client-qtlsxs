@@ -1,0 +1,6 @@
+export { createAsparagus } from "./asparagus.js"
+export { createCorn } from "./corn.js"
+export { createPotato } from "./potato.js"
+export { createSoybean } from "./soybean.js"
+export { createSunflower } from "./sunflower.js"
+export { createWheat } from "./wheat.js"

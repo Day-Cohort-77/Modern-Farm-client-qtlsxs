@@ -5,7 +5,7 @@ export const createPlan = () => {
 
     for (let index = 0; index < 3; index++) {
         const row = []
-        for (let j = 0; j < 6; j++) {
+        for (let counter = 0; counter < 6; counter++) {
             row.push(crop.next().value)
         }
         plan.push(row)
