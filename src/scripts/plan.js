@@ -34,6 +34,6 @@ const crop = function* () {
 
 /*this module is responsible for defining 3 rows of crops to be planted
 each row has 6 plots of land
-we neeed to 
+we need to 
 
 */

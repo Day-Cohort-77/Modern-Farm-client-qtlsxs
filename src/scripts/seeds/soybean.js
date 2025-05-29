@@ -1,4 +1,3 @@
-
 export const createSoybean = () => {
     return {
         type: "Soybean",
