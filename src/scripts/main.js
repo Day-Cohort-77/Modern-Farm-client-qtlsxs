@@ -1,4 +1,5 @@
 import { createPlan } from "./plan.js"
+<<<<<<< HEAD
 import { createAsparagus } from "./seeds/asparagus.js"
 import {createCorn} from "./seeds/corn.js"
 import {createPotato} from "./seeds/potato.js"
@@ -28,3 +29,13 @@ const plantsInField = usePlants()
 console.log(plantsInField)
 
 //console.log(asparagusSeed)
+=======
+import { plantSeeds } from "./tractor.js"
+import { usePlants } from "./field.js"
+
+const yearlyPlan = createPlan()
+plantSeeds(yearlyPlan)
+
+const plantsInField = usePlants()
+console.log(plantsInField)
+>>>>>>> 5068d8377131486261f72cda932a37f03cf8caa3
