@@ -29,7 +29,10 @@ export const catalogTwo = (harvest) => {
     // Build the table HTML
     let html = "<table><tr><th>Food</th><th>Quantity</th></tr>";
     for (const type in counts) {
-        html += `<tr><td>${type}</td><td>${counts[type]}</td></tr>`;
+        html += `<tr class = "table">
+                    <td class= "type">${type}</td>
+                    <td class= "counts">${counts[type]}</td>
+                </tr>`;
     }
     html += "</table>";
     return html;

@@ -11,5 +11,5 @@ const plantsInField = usePlants()
 
 const harvestedPlant = harvestPlants(plantsInField)
 harvestedPlant.sort((a, b) => a.type.localeCompare(b.type))
-//document.querySelector(".container").innerHTML = catalog(harvestedPlant)
-document.querySelector(".container").innerHTML = catalogTwo(harvestedPlant)
+document.querySelector(".container").innerHTML = catalog(harvestedPlant)
+//document.querySelector(".container").innerHTML = catalogTwo(harvestedPlant)
