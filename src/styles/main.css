@@ -35,9 +35,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 body {
-    background-image:url("https://media2.giphy.com/media/NRQ5kOoNWoqhBWR01f/200w.gif?cid=6c09b952k6tztyjaa5gijtbshykntupvhhfdb9ttdwutvu9u&ep=v1_gifs_search&rid=200w.gif&ct=g");
-    background-size: cover;
-background-repeat: no-repeat;
+    background-image:url("https://media.tenor.com/LImqRLT1ZDMAAAAM/spooky-volcano.gif");
+    background-size: fit;
+background-repeat: repeat;
 
 }
 
@@ -58,4 +58,46 @@ background-repeat: no-repeat;
        
     margin : 20px;
     padding :20px;
+}
+.type {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:blue;
+    border-right: 5px solid red;
+}
+.table{
+    background-color:yellow ;
+    border: 5px solid red;
+}
+table  {
+border-style: groove red;
+border-width: 2px;
+
+border-collapse: collapse;
+border-radius: 20px;
+
+
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+.counts {
+    color: purple;
+    font-weight: bold;
+    
+}
+th {
+    background-color: lightblue;
+    color: black;
+    font-weight: bold;
+    border: 5px solid red;
+    border-right:5px solid red ;
+}
+.header {
+    
+    color: rgb(250, 250, 250);
+    font-weight: bold;
+    text-shadow: 5px, 2px, 2px black;
+    
+    text-align: center;
 }
