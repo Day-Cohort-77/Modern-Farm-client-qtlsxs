@@ -1,5 +1,6 @@
-// the special seed, we need to return an array with two identical objects, each with proper keys and values
+// Function to create corn seeds (special: returns an array of two identical objects)
 export const createCorn = () => {
+    // Returns an array with two corn seed objects
     return [
         {
             type: "Corn",
